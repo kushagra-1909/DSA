@@ -1,0 +1,11 @@
+// last mein greater element ko daal dena by using adjacent swaps
+for(int i=n-1; i>=0; i--){
+    for(int j=0; j<=i-1; j++){
+        if(arr[j] > arr[j+1]){
+            swap(arr[j],arr[j+1]);
+        }
+    }
+}
+// step -> 0-n-1, 0-n-2, 0-n-3
+T.C -> O(N^2) -> worst case
+O(N) -> best case complexity
