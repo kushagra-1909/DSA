@@ -1,3 +1,5 @@
+// Given N events and start array and end array which contains starting day of event and ending day of event find maximum event we can attend
+
 class Solution {
   public:
     int maxEvents(int start[], int end[], int N) {

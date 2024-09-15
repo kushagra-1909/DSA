@@ -1,3 +1,5 @@
+// smallest substring containg all three elements
+
 int smallestSubstring(string S) {
         int l=0, r=0, cnt=INT_MAX;
         map<char,int>mpp;
