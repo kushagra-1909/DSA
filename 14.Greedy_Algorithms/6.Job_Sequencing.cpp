@@ -29,7 +29,6 @@ static bool comp(Job val1, Job val2){
                     }
                 }
         }
-        cout<<cnt;
         ans.push_back(cnt);
         ans.push_back(maxProfit);
         return ans;
