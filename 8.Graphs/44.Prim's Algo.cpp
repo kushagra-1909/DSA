@@ -8,7 +8,7 @@ class Solution
         vector<int>vis(V,0);
         int sum = 0;
         vector<pair<int,int>>mst;
-        pq.push({0,{0,-1}});
+        pq.push({0,{0,-1}});  // {dist,{node,parent}}
         
         while(!pq.empty()){
             auto it = pq.top();
